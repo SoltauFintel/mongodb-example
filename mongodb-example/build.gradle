@@ -1,0 +1,16 @@
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+dependencies {
+	compile 'org.mongodb.morphia:morphia:1.1.1'
+	compile 'org.mongodb.morphia:morphia-logging-slf4j:1.1.1'
+}
+
+repositories {
+	mavenCentral()
+}
+
+mainClassName = 'de.mwvb.MongoDBExampleApplication'

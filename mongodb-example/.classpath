@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/jarcache/gradle/caches/modules-2/files-2.1/org.mongodb.morphia/morphia/1.1.1/2801fcf2ee819a7fa7f7d9ca934f992c50e1e639/morphia-1.1.1.jar" sourcepath="C:/jarcache/gradle/caches/modules-2/files-2.1/org.mongodb.morphia/morphia/1.1.1/c46d0843ec6dbcd77a169c44c97eafbe945d4dd9/morphia-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jarcache/gradle/caches/modules-2/files-2.1/org.mongodb.morphia/morphia-logging-slf4j/1.1.1/32d32a58a8e151013dccc9b9cc3b6321597aa3bb/morphia-logging-slf4j-1.1.1.jar" sourcepath="C:/jarcache/gradle/caches/modules-2/files-2.1/org.mongodb.morphia/morphia-logging-slf4j/1.1.1/e455155e060830a97d588764d08f839b883b1de/morphia-logging-slf4j-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jarcache/gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.0.2/7d3880dec6c8a2f07c1f544776c326834b513712/mongo-java-driver-3.0.2.jar" sourcepath="C:/jarcache/gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.0.2/74e06a35f7949be5a0339588b41c87614dfe419d/mongo-java-driver-3.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jarcache/gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.2.2/d456bb230c70c0b95c76fb28e429d42f275941/cglib-nodep-2.2.2.jar" sourcepath="C:/jarcache/gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.2.2/fc1558bebc50419cdb55fbffd81c290e21f058c1/cglib-nodep-2.2.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jarcache/gradle/caches/modules-2/files-2.1/com.thoughtworks.proxytoys/proxytoys/1.0/d22baee6d1b98dc38a6a428f774fd9e5b2ccf4af/proxytoys-1.0.jar" sourcepath="C:/jarcache/gradle/caches/modules-2/files-2.1/com.thoughtworks.proxytoys/proxytoys/1.0/de95fbe8697606c339620e1301e3cea582e5776/proxytoys-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jarcache/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar" sourcepath="C:/jarcache/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/654135274d4c27132ea208a4ec07f344bdb83bcb/slf4j-api-1.7.5-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
