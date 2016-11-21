@@ -46,22 +46,23 @@ public class Menschen {
 
 		Mensch marcus2 = ds.createQuery(Mensch.class).field("vorname").equal("Marcus").get();
 
-		// TODO save only Herz
-		marcus.setErkrankungen(null);
+		// save only Herz
+		marcus.setErkrankungen(null); // andere Unterobjekte auf null setzen, damit sie nicht gespeichert werden
 		marcus.setVater(null);
 		marcus.setMutter(null);
-		ds.merge(marcus);
+		ds.merge(marcus); // save() wäre hier falsch
 
+		// parallel dazu soll der bereits zuvor geladene Stand geändert werden, ohne dass das Herz verändert wird
 		marcus2.setGewicht(70);
-		marcus2.getHerz().setFrequenz(15);
+		marcus2.getHerz().setFrequenz(15); // Huch, versehentlich wurde hier ein Wert eingegeben. Dieser soll aber nicht gespeichert werden.
 
-		marcus2.setHerz(null);
+		marcus2.setHerz(null); // Herz nicht speichern
 		marcus2.setErkrankungen(null);
 		marcus2.setVater(null);
 		marcus2.setMutter(null);
-		ds.merge(marcus2);
+		ds.merge(marcus2); // save() wäre hier falsch
 
-		// Test:
+		// Tests:
 		Mensch t = ds.createQuery(Mensch.class).field("vorname").equal("Marcus").get();
 		if (!t.getAktualitaet().equals("20161121")) {
 			System.out.println("marcus.aktualitaet falsch => " + t.getAktualitaet());
